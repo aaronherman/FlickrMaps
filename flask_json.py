@@ -6,8 +6,8 @@ from flask import jsonify
 import json
 import os
 
-api_key = os.environ.get(flickr_key)
-api_secret = os.environ.get(flickr_secret)
+api_key = os.environ.get('flickr_key')
+api_secret = os.environ.get('flickr_secret')
 app = Flask(__name__)
 app.debug = True
 
