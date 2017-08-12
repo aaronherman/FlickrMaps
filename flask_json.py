@@ -1,8 +1,6 @@
 import flickrapi
 import json
-from flask import Flask
-from flask import request
-from flask import jsonify
+from flask import Flask, request, jsonify, render_template
 import json
 import os
 
@@ -20,7 +18,7 @@ sets = flickr.photosets.getList(user_id='56712263@N04')
 
 @app.route('/', methods=['GET'])  
 def index():
-  return "done"
+  return render_template('index.html')
 
 
 @app.route('/coordinates', methods = ['GET'])

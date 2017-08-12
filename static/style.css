@@ -1,8 +1,13 @@
 section {
-   margin-top: 10px;
+   margin-top: 55px;
    float: left;
    height: 500px;
    overflow: auto; 
+
+}
+
+.btn {
+  margin-left:25%;
 }
 
 #googleMap {
@@ -20,8 +25,4 @@ section {
 #divtitle {
   word-wrap: break-word;
   width: 250px; 
-}
-
-body {
-  background-color: #66ccff; 
 }

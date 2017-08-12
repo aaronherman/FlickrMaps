@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flickr Maps</title>  
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/style.css" type="text/css">
+  </head>
+<body>
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC7YBqDo50Iqnp8oYZPDi2PSP1zbhpepPI"></script>
+  <script type="text/javascript" src='../static/javascript.js'></script>
+
+
+  <nav class="navbar navbar-inverse navbar-fixed-top" id ="theNavbar">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Flickr Maps</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="https://github.com/aaronherman/FlickrMaps/blob/master/README.md">About</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+
+  <section id="googleMap"></section>
+
+  <section id="pictures">
+    <div class="row">
+      <div id="size" class=".col-md-3">
+
+      </div>
+    </div>
+
+  </section>
+
+  <section id="instructions">
+    <div class="jumbotron">
+ 
+  <h2 id="divtitle" align="center">Click a photo!</h2>
+  <a class="btn btn-primary btn-lg" href id="divurl" target="_blank" style="text-align:right">Flickr URL</a>
+  <ol>
+      <li>Choose a Location on the Map.</li>
+      <li>Scroll through the nearby pictures.</li>
+      <li>Click on any picture to get its title and link to Flickr.</li>
+      <li>Choose another location!</li>
+    </ol>
+
+</section>
+
+
+
+ 
+
+</body>
+</html>

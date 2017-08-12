@@ -1,1 +1,2 @@
 # FlickrMaps
+This was developed by Aaron Herman and [Taylor Gades](https://github.com/gadeta01) CS330 midterm project. We used Flickr and Google Maps APIs. The web app allows the user to select a location on the map and see the corresponding Flickr images that are geo-tagged. 

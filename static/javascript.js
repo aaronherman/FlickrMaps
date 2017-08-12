@@ -94,8 +94,12 @@ function getlatandlon(thelatitude, thelongitude) {
             for (i in picjson.json_obj) {
 
                 console.log(picjson.json_obj[i]);
+                var picdiv = document.getElementById('size');
+                
 
-                var btn = document.createElement("BUTTON");  
+                var btn = document.createElement("a");
+                btn.className="thumbnail";  
+                picdiv.appendChild(btn);
 
                 var img = document.createElement("IMG");
                 img.src = picjson.json_obj[i]['url']; 
